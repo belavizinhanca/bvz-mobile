@@ -1,13 +1,27 @@
+import 'react-native-gesture-handler';
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { SafeAreaView, StyleSheet, Text, View } from 'react-native';
+import { Provider, DefaultTheme } from 'react-native-paper'
+import MainTab from './src/components/MainTabNavi';
+
+
+const tema = {
+  ...DefaultTheme,
+  roundness:2,
+  ...DefaultTheme.colors,
+      primary: '#000',
+      accent: '#EDAF44',
+      backgroundColor:'#fff'
+}
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+      <Provider>        
+        <MainTab />
+      </Provider>
+  
+    
   );
 }
 

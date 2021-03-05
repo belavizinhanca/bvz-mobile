@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "bvz-mobile-v0.2",
-    "slug": "bvz-mobile-v0.2",
+    "slug": "bvzMobile",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
