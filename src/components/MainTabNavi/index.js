@@ -10,7 +10,7 @@ Icon.loadFont();
 
 //import das screens ou stack
 import Home  from '../../stacks/home';
-import Sobre  from '../../screens/quem-somos';
+import Sobre  from '../../stacks/quem-somos';
 import Doacao  from '../../stacks/doacao';
 import PerfilStack from '../../stacks/perfil';
 
